@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="../sounds/boom.wav"  data-sound="boom"></audio>
+    <audio src="../sounds/clap.wav"  data-sound="clap"></audio>
+    <audio src="../sounds/hihat.wav"  data-sound="hihat"></audio>
+    <audio src="../sounds/kick.wav"  data-sound="kick"></audio>
+    <audio src="../sounds/openhat.wav"  data-sound="operhant"></audio>
+    <audio src="../sounds/ride.wav"  data-sound="ride"></audio>
+    <audio src="../sounds/snare.wav"  data-sound="snare"></audio>
+    <audio src="../sounds/tink.wav"  data-sound="tink"></audio>
+    <audio src="../sounds/tom.wav"  data-sound="tom"></audio>
+
+    <h1>DRUMKIT-LAB2</h1>
+    <div class="hint-box">
+        
+
+    <span class="tutorial">
+        How to play? Click on specified button to make a sound!<br>
+        <kbd>Q</kbd> RIDE<br>
+        <kbd>W</kbd> SNARE<br>
+        <kbd>E</kbd> TINK<br>
+        <kbd>R</kbd> TOM<br>
+        <kbd>A</kbd> HIHAT<br>
+        <kbd>S</kbd> BOOM<br>
+        <kbd>D</kbd> CLAP<br>
+        <kbd>F</kbd> KICK<br>
+        <kbd>G</kbd> OPERHANT
+    </span>
+    </div>
+    
+    <div class="play-box">
+        <div class="record-line">
+            <button id="rchnl1" class="blue">Record Channel 1</button>
+            <button id="rchnl2"class="green">Record Channel 2</button>
+            <button id="rchnl3"class="red">Record Channel 3</button>
+            <button id="rchnl4"class="purple">Record Channel 4</button>
+
+        </div>
+
+        <div class="play-line">
+        <button id="chnl1"class="blue">Play Channel 1</button>
+        <button id="chnl2"class="green">Play Channel 2</button>
+        <button id="chnl3"class="red">Play Channel 3</button>
+        <button id="chnl4"class="purple">Play Channel 4</button>
+        </div>
+       
+        <div class="stop-line"><button id="stopr"class="stop">STOP RECORDING</button></div>
+        
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

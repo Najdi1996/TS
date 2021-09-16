@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+$primary: red;
+
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+
+.search-box{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+    height: 10vh;
+    line-height: 3vw;
+}
+
+#city {
+    height: 30px;
+    color: blue;
+    width: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    border: 2px solid $primary;
+    font-weight: 800;
+    padding-left: 10px;
+
+    &:active {
+        border: 1px solid $primary;
+      }
+}
+
+#add {
+    background-color: black;
+    color: white;
+    display:inline-block;
+    border-radius: 6px;
+    height: 35px;
+    width: 10%;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    &:hover {
+        background: darken(blue, 5%);
+      }
+    
+      &:active {
+        background: darken(blue, 10%);
+      }
+}
+.weatherBox{
+    background-color: $primary;
+    width: 10%;
+    text-align: center;
+    border-radius: 12px;
+    display:inline-block;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    padding: auto;
+    margin: 10px;
+
+    &:hover {
+        background: darken($primary, 4%);
+      }
+}
+.temperature {
+    font-size: 4em;
+    font-weight: 500;
+  }
+  
+  .cityname {
+    font-size: 3em;
+    font-weight: 400;
+  }
+  
+  .additional-city-info {
+    font-weight: 300;
+  }
